@@ -1,0 +1,25 @@
+{
+  "name": "myportolio",
+  "version": "1.0.0",
+  "description": "portfolio for candace codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javasmuse/myPortolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "navrules",
+    "reservist",
+    "uscg"
+  ],
+  "author": "Candace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javasmuse/myPortolio/issues"
+  },
+  "homepage": "https://github.com/javasmuse/myPortolio#readme"
+}
