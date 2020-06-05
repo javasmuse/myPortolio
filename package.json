@@ -4,7 +4,7 @@
   "description": "portfolio for candace codes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/javasmuse/myPortolio/issues"
   },
-  "homepage": "https://github.com/javasmuse/myPortolio#readme"
+  "homepage": "https://github.com/javasmuse/myPortolio#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "sass": "^1.26.7"
+  }
 }
