@@ -303,3 +303,35 @@ footer {
         align-self: center;
     }
 }
+
+#main-projects {
+    #mePic {
+        border-radius: 3%;
+        max-height: auto;
+        max-width: 600px;
+    }
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    font-family: $textReg;
+    color: $main-text;
+    padding: 5rem;
+
+    h1 {
+        padding: 1rem;
+        align-self: center;
+    }
+
+    h2 {
+        padding: 1rem;
+        align-self: center;
+    }
+
+    h3 {
+        padding: 1rem;
+        align-self: center;
+    }
+
+}
