@@ -144,7 +144,7 @@ ul {
 }
 
 footer {
-    position: fixed;
+    position: absolute;
     z-index: 3;
     height: 50px;
     bottom: 5px;
@@ -171,6 +171,73 @@ footer {
     }
 }
 
+// Flex About
+#about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-evenly;
+    font-family: $textReg;
+    color: $main-text;
+
+    h4 {
+        font-family: $textScript;
+        font-size: xxx-large;
+        text-shadow: .5px .5px grey;
+        padding: 1rem 2rem;
+    }
+
+    .profile {
+        max-width: 200px;
+        align-self: flex-start;
+        flex: 0 1 auto;
+    }
+
+
+    .b {
+        align-self: center;
+        flex: 1 0 auto;
+        max-width: 800px;
+        letter-spacing: .5px;
+        padding: 2rem 2rem 2rem 2rem;
+        font-weight: bold;
+    }
+
+    .a {
+        text-indent: 4em;
+        font-weight: 100;
+    }
+
+}
+
+// Contact
+#contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    align-items: center;
+    align-content: space-evenly;
+    font-family: $textReg;
+    color: $main-text;
+    padding: 3rem;
+
+    h4 {
+        font-family: $textScript;
+        font-size: xxx-large;
+        text-shadow: .5px .5px grey;
+        padding: 1rem 2rem;
+    }
+
+    ul li {
+        font-family: $textReg;
+        font-size: large;
+        padding-top: .5rem;
+    }
+}
+
 // Grid id of Home a and b
 
 #home-a {
@@ -181,7 +248,7 @@ footer {
         justify-content: center;
         align-content: center;
         flex-wrap: wrap;
-        padding: 2rem;
+        padding-bottom: 2rem;
         position: relative;
         z-index: 4;
         font-family: $textReg;
@@ -189,7 +256,7 @@ footer {
 
         .fas {
             color: $carolina-blue;
-            padding-bottom: 0.2rem;
+            padding-bottom: 1rem;
             align-self: center;
             flex: 0 1 auto;
             position: relative;
@@ -199,12 +266,14 @@ footer {
         h3 {
             align-self: center;
             flex: 0 1 auto;
+            padding-bottom: 1rem;
         }
 
         .stats-title {
             font-family: $textReg;
             align-self: center;
             flex: 0 1 auto;
+            padding-bottom: 1rem;
 
         }
     }
@@ -214,7 +283,7 @@ footer {
     .stats {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-gap: 1.5rem;
+        grid-gap: 1rem;
         text-align: center;
         font-family: $textReg;
         position: relative;

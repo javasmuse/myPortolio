@@ -115,7 +115,7 @@ ul {
   line-height: 1.8px; }
 
 footer {
-  position: fixed;
+  position: absolute;
   z-index: 3;
   height: 50px;
   bottom: 5px;
@@ -135,6 +135,55 @@ footer {
     footer .social .fab:hover {
       color: #fff; }
 
+#about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-evenly;
+  font-family: "Roboto", sans-serif;
+  color: #103649; }
+  #about h4 {
+    font-family: "Dancing Script", cursive;
+    font-size: xxx-large;
+    text-shadow: .5px .5px grey;
+    padding: 1rem 2rem; }
+  #about .profile {
+    max-width: 200px;
+    align-self: flex-start;
+    flex: 0 1 auto; }
+  #about .b {
+    align-self: center;
+    flex: 1 0 auto;
+    max-width: 800px;
+    letter-spacing: .5px;
+    padding: 2rem 2rem 2rem 2rem;
+    font-weight: bold; }
+  #about .a {
+    text-indent: 4em;
+    font-weight: 100; }
+
+#contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: baseline;
+  align-items: center;
+  align-content: space-evenly;
+  font-family: "Roboto", sans-serif;
+  color: #103649;
+  padding: 3rem; }
+  #contact h4 {
+    font-family: "Dancing Script", cursive;
+    font-size: xxx-large;
+    text-shadow: .5px .5px grey;
+    padding: 1rem 2rem; }
+  #contact ul li {
+    font-family: "Roboto", sans-serif;
+    font-size: large;
+    padding-top: .5rem; }
+
 #home-a .container {
   display: flex;
   flex-direction: column;
@@ -142,30 +191,32 @@ footer {
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-  padding: 2rem;
+  padding-bottom: 2rem;
   position: relative;
   z-index: 4;
   font-family: "Roboto", sans-serif;
   color: #103649; }
   #home-a .container .fas {
     color: #88c7e8;
-    padding-bottom: 0.2rem;
+    padding-bottom: 1rem;
     align-self: center;
     flex: 0 1 auto;
     position: relative;
     z-index: 4; }
   #home-a .container h3 {
     align-self: center;
-    flex: 0 1 auto; }
+    flex: 0 1 auto;
+    padding-bottom: 1rem; }
   #home-a .container .stats-title {
     font-family: "Roboto", sans-serif;
     align-self: center;
-    flex: 0 1 auto; }
+    flex: 0 1 auto;
+    padding-bottom: 1rem; }
 
 #home-b .stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1.5rem;
+  grid-gap: 1rem;
   text-align: center;
   font-family: "Roboto", sans-serif;
   position: relative;
