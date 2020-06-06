@@ -182,7 +182,6 @@ footer {
     font-family: $textReg;
     color: $main-text;
 
-
     h4 {
         font-family: $textScript;
         font-size: xxx-large;
@@ -195,7 +194,6 @@ footer {
         align-self: flex-start;
         flex: 0 1 auto;
     }
-
 
     .b {
         align-self: center;
@@ -210,7 +208,6 @@ footer {
         text-indent: 4em;
         font-weight: 100;
     }
-
 }
 
 // Contact
@@ -244,7 +241,6 @@ footer {
         background-color: $carolina-blue;
         color: $main-text;
     }
-
 }
 
 // Grid id of Home a and b
@@ -283,7 +279,6 @@ footer {
             align-self: center;
             flex: 0 1 auto;
             padding-bottom: 1rem;
-
         }
     }
 }
@@ -299,6 +294,21 @@ footer {
         z-index: 4;
         font-family: $textReg;
         color: $main-text;
+
+        div {
+            padding: 3rem 0;
+            background: $light-color;
+
+            // original sample had alternating shading - I think 1 consistant shade is better
+
+            // &:nth-child {
+
+            // }
+
+            // &:nth-child(even) {
+            //     background: $medium-color;
+            // }
+        }
 
         .stats-title {
             font-weight: bold;
@@ -342,5 +352,4 @@ footer {
         padding: 1rem;
         align-self: center;
     }
-
 }

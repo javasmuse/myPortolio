@@ -227,6 +227,9 @@ footer {
   z-index: 4;
   font-family: "Roboto", sans-serif;
   color: #103649; }
+  #home-b .stats div {
+    padding: 3rem 0;
+    background: #f4f4f4; }
   #home-b .stats .stats-title {
     font-weight: bold;
     padding: 1rem; }
