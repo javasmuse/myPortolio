@@ -182,6 +182,7 @@ footer {
     font-family: $textReg;
     color: $main-text;
 
+
     h4 {
         font-family: $textScript;
         font-size: xxx-large;
@@ -233,9 +234,17 @@ footer {
 
     ul li {
         font-family: $textReg;
-        font-size: large;
+        font-size: larger;
+        font-weight: bold;
         padding-top: .5rem;
     }
+
+    // might be nice to background the info here
+    ul li mark {
+        background-color: $carolina-blue;
+        color: $main-text;
+    }
+
 }
 
 // Grid id of Home a and b
